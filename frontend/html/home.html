@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>MiroTalk WebRTC C2C end-to-end encrypted</title>
+        <title>Talk To Everyone</title>
 
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content="MiroTalk C2C WebRTC real-time cam-2-cam video calls and screen sharing, end-to-end encrypted."
+            content="Talk To Everyone WebRTC real-time cam-2-cam video calls and screen sharing, end-to-end encrypted."
         />
 
         <meta property="og:type" content="app-webrtc" />
@@ -19,7 +19,7 @@
         <meta property="og:url" content="https://c2c.mirotalk.com" />
 
         <link rel="apple-touch-icon" href="../images/favicon.png" />
-        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="../images/img.2.jpg" />
         <link rel="stylesheet" href="../css/home.css" />
 
         <script async src="../js/umami.js"></script>
@@ -29,11 +29,14 @@
         <script defer src="../js/home.js"></script>
     </head>
     <body onload="initHome()">
+        <nav class="nav">
+            <h1>TALK TO EVERYONE</h1>>
+        </nav>
         <form>
             <label for="username">Room</label>
-            <input id="roomIdInput" type="text" name="room" maxlength="36" required />
+            <input id="roomIdInput" type="text" name="room" maxlength="36" placeholder="Room Id" required />
             <label for="username">Username</label>
-            <input id="userNameInput" type="text" name="name" maxlength="15" required />
+            <input id="userNameInput" type="text" name="name" maxlength="15" placeholder="Username" required />
             <button id="joinBtn">Join</button>
             <div class="githubDiv">
                 <a
